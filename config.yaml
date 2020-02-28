@@ -23,10 +23,10 @@
       required: true
     - column: F
       name: "pubpri"
-    - column: H
+    - column: I
       name: "type"
       required: true
-    - column: I
+    - column: J
       name: "location"
   endpoint: "talks.ics"
   event:
@@ -54,16 +54,16 @@
       name: "manager"
     - column: F
       name: "shadow"
-    - column: G
-      name: "location"
     - column: H
-      name: "length"
+      name: "location"
     - column: I
+      name: "length"
+    - column: J
       name: "date"
       required: true
       exclude:
         - "TBD"
-    - column: J
+    - column: K
       name: "pubpri"
   endpoint: "bootcamps.ics"
   event:
