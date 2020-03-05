@@ -39,16 +39,16 @@
   sheetName: "BootCamps"
   startRow: 33 # Start with FY 2021 bootcamps
   columns:
-    - column: B
+    - column: C
       name: "bootcamp"
       required: true
-    - column: C
+    - column: D
       name: "status"
       required: true
       exclude:
         - "Won't Do"
         - "Rejected"
-    - column: D
+    - column: B
       name: "lead"
     - column: E
       name: "manager"
