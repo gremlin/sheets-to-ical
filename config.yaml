@@ -50,20 +50,20 @@
         - "Rejected"
     - column: B
       name: "lead"
-    - column: E
-      name: "manager"
     - column: F
+      name: "manager"
+    - column: G
       name: "shadow"
-    - column: H
-      name: "location"
     - column: I
+      name: "location"
+    - column: K
       name: "length"
-    - column: J
+    - column: E
       name: "date"
       required: true
       exclude:
         - "TBD"
-    - column: K
+    - column: L
       name: "pubpri"
   endpoint: "bootcamps.ics"
   event:
